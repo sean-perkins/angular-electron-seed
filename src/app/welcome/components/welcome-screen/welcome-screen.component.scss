@@ -1,0 +1,44 @@
+
+:host {
+    background: url(https://angular.io/resources/images/backgrounds/super-hero-large.png) no-repeat bottom center,-webkit-linear-gradient(305deg,#0D47A1,#42A5F5);
+    background: url(https://angular.io/resources/images/backgrounds/super-hero-large.png) no-repeat bottom center,linear-gradient(145deg,#0D47A1,#42A5F5);
+    background-blend-mode: multiply;
+    display:block;
+    background-size: 100%;
+    padding:48px 48px 32px 48px;
+    text-align:center;
+    height: 448px;
+    overflow-y:hidden;
+}
+.hero-title {
+    color: #fff;
+    font-weight:300;
+    font-size: 24px;
+    line-height:32px;
+    margin-bottom:32px;
+}
+.welcome-button {
+    min-height: 36px;
+    min-width: 88px;
+    text-align:center;
+    white-space: nowrap;
+    cursor: pointer;
+    letter-spacing: .010em;
+    margin:0 8px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.26);
+    display:inline-block;
+    font-size:15px;
+    line-height:48px;
+    transition: all .3s;
+    background: rgba(255,255,255,0.87);
+    border-radius: 2px;
+    color: #1565C0;
+    font-weight: 500;
+    padding: 0 64px;
+    text-decoration: none;
+    &:hover {
+        background: #fff;
+        box-shadow: 0 8px 8px rgba(0,0,0,0.24), 0 0 8px rgba(0,0,0,0.12);
+        color: #1E88E5;
+    }
+}

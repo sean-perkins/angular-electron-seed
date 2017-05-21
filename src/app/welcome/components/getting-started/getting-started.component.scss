@@ -1,0 +1,15 @@
+
+:host {
+    display:block;
+    background: url(https://angular.io/resources/images/backgrounds/super-hero-large.png) no-repeat bottom center,-webkit-linear-gradient(305deg,#0D47A1,#42A5F5);
+    background: url(https://angular.io/resources/images/backgrounds/super-hero-large.png) no-repeat bottom center,linear-gradient(145deg,#0D47A1,#42A5F5);
+    height:100vh;
+    position:relative;
+}
+.vertical-center {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align:center;
+    padding-left:45px;
+}

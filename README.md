@@ -25,5 +25,5 @@ Before running the tests make sure you are serving the app via `ng serve`.
 # Contributors 
 
 [<img alt="Sean perkins" src="https://avatars1.githubusercontent.com/u/13732623?v=3&s=117" width="117">](https://github.com/sean-perkins) |
-:---: |:---: |
+:---:
 |[Sean Perkins](https://github.com/sean-perkins)|

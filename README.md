@@ -5,13 +5,20 @@ This seed combines the technologies of Angular (4+) with [Electron](https://elec
 ![Example](https://i.gyazo.com/67c230a5f92509f703eaf03a38590613.gif)
 
 ## Getting Started
-- `npm i`
-- `npm run start.desktop` - triggers the AngularCLI to build the dist directory with the watch command for changes.
-- `npm run watch` - runs custom script tooling to build electron and wire up basic live-reload functionality.
+|Command|Description|
+|--|--|
+|`npm i`| Install the required dependencies|
+|`npm run start`|Builds the project and opens your app in Electron|
+|`npm run start.watch`|Builds the project and watches for file changes with Angular CLI|
+|`npm run watch`|Runs the custom tooling and syncs the live-sync with the AngularCLI watch task|
+|`npm run bundle.mac`|Bundles your MacOS app into the bundles directory|
+|`npm run bundle.windows`|Bundles your Windows app into the bundles directory|
+|`npm run bundle.linux`|Bundles your Linux app into the bundles directory|
 
 ### Features
 - IPC Protocol - Send messages between Electron and Angular (plays beep when clicking Getting Started)
 - Exposed Electron API via `NgxElectronService`
+- Bundle your app for Mac, Windows or Linux
 
 ## Running unit tests
 

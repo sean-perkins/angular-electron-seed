@@ -3,4 +3,4 @@ import { electron } from './utils/electron';
 /**
  * Restarts the current electron window instance with the changes
  */
-gulp.task('build.electron.restart', electron.restart);
+gulp.task('build.restart', electron.restart);

@@ -8,7 +8,7 @@ const ELECTRON_CLIENT = 'ELECTRON_BRIDGE_CLIENT';
 @Injectable()
 export class NgxElectronService {
 
-    private _electron: Electron.ElectronMainAndRenderer = null;
+    private _electron: Electron.AllElectron = null;
 
     private listenerSubject: BehaviorSubject<any> = new BehaviorSubject<any>(null);
     listener$: Observable<any>;

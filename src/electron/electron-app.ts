@@ -6,7 +6,7 @@ let applicationRef: Electron.BrowserWindow = null;
 
 const debugMode = false;
 
-const mainWindowSettings: Electron.BrowserWindowOptions = {
+const mainWindowSettings: Electron.BrowserWindowConstructorOptions = {
     width: 800,
     height: 550,
     frame: true,

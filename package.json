@@ -41,8 +41,7 @@
     "electron": "^1.6.8",
     "electron-connect": "^0.4.8",
     "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4",
-    "@types/electron": "^1.4.38"
+    "zone.js": "^0.8.4"
   },
   "devDependencies": {
     "@angular/cli": "1.0.0",
@@ -52,7 +51,7 @@
     "codelyzer": "~2.0.0",
     "electron-debug": "^1.0.0",
     "electron-packager": "^8.7.0",
-    "electron-prebuilt": "^1.2.1",
+    "electron-prebuilt": "^1.4.13",
     "gulp": "^3.9.1",
     "gulp-debug": "^3.1.0",
     "gulp-rename": "^1.2.2",
